@@ -92,7 +92,7 @@ MainWindow::MainWindow(QWidget *parent)
     QList<QVariant> list;
     int minIBK7=0;
 
-    m_fileLas.setFileName("19_2.Las");
+    m_fileLas.setFileName("19.Las");
     if (!m_fileLas.open(QIODevice::ReadWrite|QIODevice::Text)){
        qDebug()<<"Ko mo duoc file LAS";
        return;
